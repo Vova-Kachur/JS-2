@@ -1,4 +1,4 @@
-const celsius = 50;
+const celsius = 100;
 let fahrenheit = (celsius * 9) / 5 + 32;
 console.log("Температура в фаренгейтах:", fahrenheit);
 
