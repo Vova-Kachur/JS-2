@@ -23,7 +23,7 @@ console.log(
   Math.round(damageEnergy)
 );
 
-const totalPrice = 12655;
+const totalPrice = 5400;
 const discount = 0.1;
 const discountedPrice = totalPrice * discount;
 console.log("Використано знижку. Кінцева сумма стала:", discountedPrice);
