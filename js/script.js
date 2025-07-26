@@ -23,10 +23,10 @@ console.log(
   Math.round(damageEnergy)
 );
 
-const totalPrice = 5400;
-const discount = 0.1;
-const discountedPrice = totalPrice * discount;
-console.log("Використано знижку. Кінцева сумма стала:", discountedPrice);
+const totalPrice = 1000;
+const discount = 0.10;
+const discountedPrice = totalPrice * (1 - discount);
+console.log(discountedPrice);
 
 const floatNumber = 12.78;
 const roundedDown = Math.floor(floatNumber);
